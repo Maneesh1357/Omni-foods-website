@@ -1,20 +1,20 @@
-/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+/* px and px do NOT depend on html font-size in media queries! Instead, 1px = 1px = 16px */
 
 /**************************/
 /* BELOW 1344px (Smaller desktops) */
 /**************************/
 
-@media (max-width: 84em) {
+@media (max-width: 84px) {
   .hero {
-    max-width: 120rem;
+    max-width: 120px;
   }
 
   .heading-primary {
-    font-size: 4.4rem;
+    font-size: 4.4px;
   }
 
   .gallery {
-    grid-template-columns: repeat(2, 1fr);
+    grid-tpxplate-columns: repeat(2, 1fr);
   }
 }
 
@@ -22,39 +22,39 @@
 /* BELOW 1200px (Landscape Tablets) */
 /**************************/
 
-@media (max-width: 75em) {
+@media (max-width: 75px) {
   html {
     /* 9px / 16px  */
     font-size: 56.25%;
   }
 
   .grid {
-    column-gap: 4.8rem;
-    row-gap: 6.4rem;
+    column-gap: 4.8px;
+    row-gap: 6.4px;
   }
 
   .heading-secondary {
-    font-size: 3.6rem;
+    font-size: 3.6px;
   }
 
   .heading-tertiary {
-    font-size: 2.4rem;
+    font-size: 2.4px;
   }
 
   .header {
-    padding: 0 3.2rem;
+    padding: 0 3.2px;
   }
 
   .main-nav-list {
-    gap: 3.2rem;
+    gap: 3.2px;
   }
 
   .hero {
-    gap: 4.8rem;
+    gap: 4.8px;
   }
 
   .testimonials-container {
-    padding: 9.6rem 3.2rem;
+    padding: 9.6px 3.2px;
   }
 }
 
@@ -62,16 +62,16 @@
 /* BELOW 944px (Tablets) */
 /**************************/
 
-@media (max-width: 59em) {
+@media (max-width: 59px) {
   html {
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
 
   .hero {
-    grid-template-columns: 1fr;
-    padding: 0 8rem;
-    gap: 6.4rem;
+    grid-tpxplate-columns: 1fr;
+    padding: 0 8px;
+    gap: 6.4px;
   }
 
   .hero-text-box,
@@ -85,40 +85,40 @@
 
   .delivered-meals {
     justify-content: center;
-    margin-top: 3.2rem;
+    margin-top: 3.2px;
   }
 
   .logos img {
-    height: 2.4rem;
+    height: 2.4px;
   }
 
   .step-number {
-    font-size: 7.4rem;
+    font-size: 7.4px;
   }
 
   .meal-content {
-    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+    padding: 2.4px 3.2px 3.2px 3.2px;
   }
 
   .section-testimonials {
-    grid-template-columns: 1fr;
+    grid-tpxplate-columns: 1fr;
   }
 
   .gallery {
-    grid-template-columns: repeat(6, 1fr);
+    grid-tpxplate-columns: repeat(6, 1fr);
   }
 
   .cta {
     /* 3/5 = 60% + 2/5 = 40% */
-    grid-template-columns: 3fr 2fr;
+    grid-tpxplate-columns: 3fr 2fr;
   }
 
   .cta-form {
-    grid-template-columns: 1fr;
+    grid-tpxplate-columns: 1fr;
   }
 
   .btn--form {
-    margin-top: 1.2rem;
+    margin-top: 1.2px;
   }
 
   /* MOBILE NAVIGATION */
@@ -139,7 +139,7 @@
     transform: translateX(100%);
 
     display: flex;
-    align-items: center;
+    align-itpxs: center;
     justify-content: center;
     transition: all 0.5s ease-in;
 
@@ -174,12 +174,12 @@
 
   .main-nav-list {
     flex-direction: column;
-    gap: 4.8rem;
+    gap: 4.8px;
   }
 
   .main-nav-link:link,
   .main-nav-link:visited {
-    font-size: 3rem;
+    font-size: 3px;
   }
 }
 
@@ -187,10 +187,10 @@
 /* BELOW 704px (Smaller tablets) */
 /**************************/
 
-@media (max-width: 44em) {
+@media (max-width: 44px) {
   .grid--3-cols,
   .grid--4-cols {
-    grid-template-columns: repeat(2, 1fr);
+    grid-tpxplate-columns: repeat(2, 1fr);
   }
 
   .diets {
@@ -199,7 +199,7 @@
   }
 
   .heading-secondary {
-    margin-bottom: 4.8rem;
+    margin-bottom: 4.8px;
   }
 
   .pricing-plan {
@@ -207,7 +207,7 @@
   }
 
   .grid--footer {
-    grid-template-columns: repeat(6, 1fr);
+    grid-tpxplate-columns: repeat(6, 1fr);
   }
 
   .logo-col,
@@ -218,7 +218,7 @@
   .nav-col {
     grid-row: 1;
     grid-column: span 2;
-    margin-bottom: 3.2rem;
+    margin-bottom: 3.2px;
   }
 }
 
@@ -226,29 +226,29 @@
 /* BELOW 544px (Phones) */
 /**************************/
 
-@media (max-width: 34em) {
+@media (max-width: 34px) {
   .grid {
-    row-gap: 4.8rem;
+    row-gap: 4.8px;
   }
 
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols {
-    grid-template-columns: 1fr;
+    grid-tpxplate-columns: 1fr;
   }
 
   .btn,
   .btn:link,
   .btn:visited {
-    padding: 2.4rem 1.6rem;
+    padding: 2.4px 1.6px;
   }
 
   .section-hero {
-    padding: 2.4rem 0 6.4rem 0;
+    padding: 2.4px 0 6.4px 0;
   }
 
   .hero {
-    padding: 0 3.2rem;
+    padding: 0 3.2px;
   }
 
   .hero-img {
@@ -256,7 +256,7 @@
   }
 
   .logos img {
-    height: 1.2rem;
+    height: 1.2px;
   }
 
   .step-img-box:nth-child(2) {
@@ -268,28 +268,28 @@
   }
 
   .step-img-box {
-    transform: translateY(2.4rem);
+    transform: translateY(2.4px);
   }
 
   .testimonials {
-    grid-template-columns: 1fr;
+    grid-tpxplate-columns: 1fr;
   }
 
   .gallery {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.2rem;
+    grid-tpxplate-columns: repeat(4, 1fr);
+    gap: 1.2px;
   }
 
   .cta {
-    grid-template-columns: 1fr;
+    grid-tpxplate-columns: 1fr;
   }
 
   .cta-text-box {
-    padding: 3.2rem;
+    padding: 3.2px;
   }
 
   .cta-img-box {
-    height: 32rem;
+    height: 32px;
     grid-row: 1;
   }
 }
@@ -298,7 +298,7 @@
 - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
-- Spacing system (px)
+- Spacing systpx (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
@@ -307,50 +307,50 @@
 /**************************/
 
 .no-flexbox-gap .main-nav-list li:not(:last-child) {
-  margin-right: 4.8rem;
+  margin-right: 4.8px;
 }
 
-.no-flexbox-gap .list-item:not(:last-child) {
-  margin-bottom: 1.6rem;
+.no-flexbox-gap .list-itpx:not(:last-child) {
+  margin-bottom: 1.6px;
 }
 
 .no-flexbox-gap .list-icon:not(:last-child) {
-  margin-right: 1.6rem;
+  margin-right: 1.6px;
 }
 
 .no-flexbox-gap .delivered-faces {
-  margin-right: 1.6rem;
+  margin-right: 1.6px;
 }
 
 .no-flexbox-gap .meal-attribute:not(:last-child) {
-  margin-bottom: 2rem;
+  margin-bottom: 2px;
 }
 
 .no-flexbox-gap .meal-icon {
-  margin-right: 1.6rem;
+  margin-right: 1.6px;
 }
 
 .no-flexbox-gap .footer-row div:not(:last-child) {
-  margin-right: 6.4rem;
+  margin-right: 6.4px;
 }
 
 .no-flexbox-gap .social-links li:not(:last-child) {
-  margin-right: 2.4rem;
+  margin-right: 2.4px;
 }
 
 .no-flexbox-gap .footer-nav li:not(:last-child) {
-  margin-bottom: 2.4rem;
+  margin-bottom: 2.4px;
 }
 
-@media (max-width: 75em) {
+@media (max-width: 75px) {
   .no-flexbox-gap .main-nav-list li:not(:last-child) {
-    margin-right: 3.2rem;
+    margin-right: 3.2px;
   }
 }
 
-@media (max-width: 59em) {
+@media (max-width: 59px) {
   .no-flexbox-gap .main-nav-list li:not(:last-child) {
     margin-right: 0;
-    margin-bottom: 4.8rem;
+    margin-bottom: 4.8px;
   }
 }
