@@ -44,7 +44,7 @@ Large: 1.8
 
 --- 05 SHADOWS
 
-0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+0 2.4px 4.8px rgba(0, 0, 0, 0.075);
 
 --- 06 BORDER-RADIUS
 
@@ -64,15 +64,8 @@ Medium: 11px
 }
 
 html {
-  /* font-size: 10px; */
-
-  /* 10px / 16px = 0.625 = 62.5% */
-  /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
   overflow-x: hidden;
-
-  /* Does NOT work on Safari */
-  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -81,35 +74,28 @@ body {
   font-weight: 400;
   color: #555;
 
-  /* Only works if there is nothing absolutely positioned in relation to body */
+
   overflow-x: hidden;
 }
 
-/**************************/
-/* GENRAL REUSABLE COMPONENTS */
-/**************************/
+
 
 .container {
   /* 1140px */
-  max-width: 120rem;
-  padding: 0 3.2rem;
+  max-width: 120px;
+  padding: 0 3.2px;
   margin: 0 auto;
 }
 
 .grid {
   display: grid;
-  column-gap: 6.4rem;
-  row-gap: 9.6rem;
+  column-gap: 6.4px;
+  row-gap: 9.6px;
 
-  /* margin-bottom: 9.6rem; */
 }
 
-/* .grid:last-child {
-  margin-bottom: 0;
-} */
-
 .grid:not(:last-child) {
-  margin-bottom: 9.6rem;
+  margin-bottom: 9.6px;
 }
 
 .grid--2-cols {
@@ -123,11 +109,6 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
-
-/* .grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
-} */
-
 .grid--center-v {
   align-items: center;
 }
@@ -143,30 +124,30 @@ body {
 }
 
 .heading-primary {
-  font-size: 5.2rem;
+  font-size: 5.2px;
   line-height: 1.05;
-  margin-bottom: 3.2rem;
+  margin-bottom: 3.2px;
 }
 
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: 4.4px;
   line-height: 1.2;
-  margin-bottom: 9.6rem;
+  margin-bottom: 9.6px;
 }
 
 .heading-tertiary {
-  font-size: 3rem;
+  font-size: 3px;
   line-height: 1.2;
-  margin-bottom: 3.2rem;
+  margin-bottom: 3.2px;
 }
 
 .subheading {
   display: block;
-  font-size: 1.6rem;
+  font-size: 1.6px;
   font-weight: 500;
   color: #cf711f;
   text-transform: uppercase;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.6px;
   letter-spacing: 0.75px;
 }
 
@@ -176,9 +157,9 @@ body {
   display: inline-block;
 
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2px;
   font-weight: 600;
-  padding: 1.6rem 3.2rem;
+  padding: 1.6px 3.2px;
   border-radius: 9px;
 
   /* Only necessary for .btn */
@@ -222,7 +203,7 @@ body {
   background-color: #45260a;
   color: #fdf2e9;
   align-self: end;
-  padding: 1.2rem;
+  padding: 1.2px;
 }
 
 .btn--form:hover {
@@ -250,20 +231,20 @@ body {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 1.6px;
 }
 
 .list-item {
-  font-size: 1.8rem;
+  font-size: 1.8px;
   display: flex;
   align-items: center;
-  gap: 1.6rem;
+  gap: 1.6px;
   line-height: 1.2;
 }
 
 .list-icon {
-  width: 3rem;
-  height: 3rem;
+  width: 3px;
+  height: 3px;
   color: #e67e22;
 }
 
@@ -271,16 +252,16 @@ body {
   outline: none;
   /* outline: 4px dotted #e67e22; */
   /* outline-offset: 8px; */
-  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+  box-shadow: 0 0 0 0.8px rgba(230, 125, 34, 0.5);
 }
 
 /* HELPER/SETTINGS CLASSES */
 .margin-right-sm {
-  margin-right: 1.6rem !important;
+  margin-right: 1.6px !important;
 }
 
 .margin-bottom-md {
-  margin-bottom: 4.8rem !important;
+  margin-bottom: 4.8px !important;
 }
 
 .center-text {
